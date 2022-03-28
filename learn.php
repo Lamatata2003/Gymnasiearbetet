@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<title></title>
 </head>
+<?php include("header.php") ?>
 <body class="bg-color">
 
 </body>
