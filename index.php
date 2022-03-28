@@ -14,7 +14,6 @@
 		<button class="button-size btn-secondary">Learn</button>
 		<form method="post" action="quiz-index.php">
 				<button class="button-size btn-secondary" type="submit">Quiz</button>
-				<label>antenn</label>
 			</form>
 	</div>
 </body>
