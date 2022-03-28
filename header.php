@@ -4,15 +4,20 @@
 
 <?php echo "<header class=\"header\">
 
-	<div class=\"d-flex flex-row justify-content-around\">
-		<div class=\"header-learn\">Learn</div>
-
-		<div class=\"header-quiz\">
+	<div class=\"d-flex flex-row\">
+<div class=\"justify-content-start\">
 
 			<form method=\"post\" action=\"quiz-index.php\">
-				<button type=\"submit\">Quiz</button>
+				<button type=\"submit\">Home</button>
+				<button type=\"submit\">Learn</button>
+				<button type=\"submit\">Test</button> 
 			</form>
+			</div>
+			</div>
+<div class=\"d-flex flex-row justify-content-end\">
+<button type=\"submit\">About us</button>
 
-		</div>
-	</div>
+
+</div>
+
 </header>"?>
