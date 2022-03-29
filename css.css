@@ -1,6 +1,3 @@
-body {
-	margin: 0px;
-}
 .container {
 	display: flex;
 }
@@ -124,6 +121,28 @@ background-color: darkgray !important;
 }
 
 .dropdown-item:active {
-	background-color: #D8DBDF;
-	color: #212529;
+	background-color: #2D3033;
+	color: #D8DBDF;
 }
+
+.dropdown-item:hover {
+	background-color: #2D3033;
+	color: #D8DBDF;
+}
+
+.dropdown-item:focus {
+	background-color: #2D3033;
+	color: #D8DBDF;
+}
+
+.dropdown-item {
+	color: #D8DBDF;
+}
+
+.dropdown-menu {
+	background-color: #2D3033;
+	color: #D8DBDF;
+}
+
+
+
