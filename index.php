@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" href="images/evilduolingo.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css.css">
@@ -10,7 +11,7 @@
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
-	<div class="d-flex flex-column align-content-center flex-wrap">
+<!-- 	<div class="d-flex flex-column align-content-center flex-wrap">
 		<form method="post" action="learn.php">
 			<button class="button-size btn-secondary" type="submit">Learn</button>
 		</form>
@@ -19,5 +20,5 @@
 				<button class="button-size btn-secondary" type="submit">Quiz</button>
 			</form>
 	</div>
-</body>
+ --></body>
 </html>

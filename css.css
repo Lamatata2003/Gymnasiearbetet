@@ -115,68 +115,15 @@ background-color: darkgray !important;
 	font-size: 16px;
 }
 
-.nav {
-	background-color: #232629;
-	color: #FFFFFF;
-    width: 100%;
-    min-width: 766px;
-    font-size: 24px;
-    border-bottom: 1px solid<
-}
-
 .bg-color {
-
 	background-color: #31363b;
 }
 
-.header-learn {
-
+.navcolor {
+	background-color: #232629;
 }
 
-.dashboard-btn {
-	margin: 100px;
-}
-
-
-
-.dropbtn {
-  background-color: #343a40;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #343a40;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd}
-
-.show {display:block;}
-
-.show {
-  display: block;
+.dropdown-item:active {
+	background-color: #D8DBDF;
+	color: #212529;
 }
