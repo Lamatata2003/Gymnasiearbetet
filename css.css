@@ -140,7 +140,7 @@ background-color: darkgray !important;
 
 
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #343a40;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -149,7 +149,7 @@ background-color: darkgray !important;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #343a40;
 }
 
 .dropdown {
