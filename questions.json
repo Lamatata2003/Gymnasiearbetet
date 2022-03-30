@@ -1,62 +1,56 @@
 [
   [
-    "日",
-    "kanjiToReading",
+    "Select the correct character for “yo”",
     [
-      "ニチ, ひ",
-      "イチ, ひと(つ)",
-      "コク, くに",
-      "ジン, ひと"
+      "よ",
+      "か",
+      "ゆ",
+      "は"
     ]
   ],
   [
-    "年",
-    "kanjiToDefinition",
+    "Select the correct character for “ka”",
     [
-      "Year",
-      "Country",
-      "Mountain",
-      "Hundred"
+      "か",
+      "は",
+      "の",
+      "や"
     ]
   ],
   [
-    "Electricity",
-    "definitionToKanji",
+    "Select the correct character for “ha”",
     [
-      "電",
-      "男",
-      "先",
-      "書"
+      "は",
+      "ま",
+      "く",
+      "よ"
     ]
   ],
   [
-    "ガイ, そと",
-    "readingToKanji",
+    "Select the correct character for “ku”",
     [
-      "外",
-      "子",
-      "六",
-      "来"
+      "く",
+      "か",
+      "へ",
+      "の"
     ]
   ],
   [
-    "西",
-    "kanjiToDefinition",
+    "Select the correct character for “yu”",
     [
-      "West",
-      "South",
-      "North",
-      "East"
+      "ゆ",
+      "て",
+      "よ",
+      "こ"
     ]
   ],
   [
-    "White",
-    "definitionToKanji",
+    "Select the correct character for “ho”",
     [
-      "白",
-      "黒",
-      "青",
-      "赤"
+      "ほ",
+      "は",
+      "ま",
+      "と"
     ]
   ]
 ]

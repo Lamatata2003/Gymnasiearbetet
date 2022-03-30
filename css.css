@@ -2,7 +2,7 @@
 	display: flex;
 }
 
-.e {
+.quiz {
 	text-align: center;
 	font-size: 32px;
 	margin-top: 16px;
@@ -30,12 +30,6 @@
   width: 10%;
 }
 
-.border1 {
-	border: solid white;
-	border-radius: 5px;
-	border-width: 1px;
-}
-
 .kanjiToDefinition {
 	background-color: #00D1F8;
 }
@@ -54,8 +48,7 @@
 
 
 .padding {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding: 0px 150px 150px 150px;
 }
 
 .margintop {
@@ -75,10 +68,9 @@
 	flex-direction: column;
 	list-style-type: none;
   margin: 25px 0 0 0;
-  padding-left: 0px;
-  font-size: 24px;
+  font-size: 32px;
   text-align: left;
-  	max-width: 200px;
+
 	min-width: 200px;
 }
 
@@ -94,7 +86,7 @@
 }
 
 .radiobtn input[type="radio"]:checked + label {
-background-color: darkgray !important;
+	background-color: darkgray !important;
     border-color: #4c4;
 }
 
@@ -144,5 +136,7 @@ background-color: darkgray !important;
 	color: #D8DBDF;
 }
 
-
-
+.quizbuttons {
+	padding: 12px;
+	text-indent: 6px;
+}
