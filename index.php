@@ -9,7 +9,7 @@
 	<title>Home - Gengobu</title>
 
 </head>
-<?php include("header.php") ?>
+<?php include("header.php")?>
 <body class="bg-color">
 <!-- 	<div class="d-flex flex-column align-content-center flex-wrap">
 		<form method="post" action="learn.php">
@@ -21,4 +21,5 @@
 			</form>
 	</div>
  --></body>
+ <footer> <?php include("footer.php")?> </footer>
 </html>
