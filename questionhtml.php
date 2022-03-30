@@ -28,7 +28,6 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
     <div class="d-flex">
         <div class="quiz padding">
             <h1 class="text-light margintop"><?php echo $qo->getQuestion()?> </h1>
-            <!-- <div class="buttons"> -->
                 <div class="radiobtn d-grid gap-2">
                     <?php 
                     // var_dump($_SESSION['answers']);
@@ -57,7 +56,6 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
                 </script>
 
                 <input type="hidden" name="question" value="<?php echo $_POST['question']+1?>">
-            <!-- </div> -->
         </div>
     </div>
 </form>
