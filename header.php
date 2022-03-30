@@ -8,7 +8,7 @@
 	<title></title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark navcolor">
+<nav class="navbar navbar-expand-lg navbar-dark navcolor shadow p-3">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">Gengobu</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -11,4 +11,5 @@
 <body class="bg-color">
 
 </body>
+<footer> <?php include("footer.php")?> </footer>
 </html>

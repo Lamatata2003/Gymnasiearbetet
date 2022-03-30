@@ -29,7 +29,7 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
         <div class="quiz padding">
             <h1 class="text-light margintop"><?php echo $qo->getQuestion()?> </h1>
             <!-- <div class="buttons"> -->
-                <div class="radiobtn d-grid gap-1">
+                <div class="radiobtn d-grid gap-2">
                     <?php 
                     // var_dump($_SESSION['answers']);
                     for ($i = 0; $i < count($qs); $i++) {
@@ -39,13 +39,13 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
                             echo "checked";
                         }
                         echo "</input>
-                        <label class=\"text-light border border-2 border-white rounded quizbuttons\" for=\"$qs[$i]\">$qs[$i]</label>";
+                        <label class=\"text-light border border-2 border-white rounded quizbuttons btnshadow\" for=\"$qs[$i]\">$qs[$i]</label>";
 
                         }
                         ?>
                 </div>
-            <input class="btn btn-secondary" id="next" type="submit" name="pager" value="Next" disabled="disabled">
-            <input class="btn btn-secondary" id="prev" type="submit" name="pager" value="Previous" disabled="disabled">
+            <input class="btn btn-secondary mt-2" id="next" type="submit" name="pager" value="Next" disabled="disabled">
+<!--             <input class="btn btn-secondary" id="prev" type="submit" name="pager" value="Previous" disabled="disabled"> -->
 
                 <script type="text/javascript">
 

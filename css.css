@@ -86,12 +86,16 @@
 }
 
 .radiobtn input[type="radio"]:checked + label {
-	background-color: darkgray !important;
+	background-color: #23262a;
     border-color: #4c4;
 }
 
 .radiobtn label:hover {
-	background-color: darkgray !important;
+	background-color: #2e3338;
+}
+
+.radiobtn input[type="radio"]:active + label {
+	background-color: #23262a;
 }
 
 #next {
@@ -140,3 +144,12 @@
 	padding: 12px;
 	text-indent: 6px;
 }
+
+.btnshadow {
+	box-shadow: 0 5px #22262a;
+}
+
+.btnshadow:active {
+  box-shadow: 0 3px #22262a;
+  transform: translateY(2px);
+]
