@@ -24,32 +24,13 @@ foreach ($data as $value) {
 $_SESSION["data"]=serialize($qs);
 $_SESSION["answers"]=[];
 ?>
-
-<?php // Takes raw question data from the file
-$json = file_get_contents('katakana_questions.json');
-// Converts it into a PHP object
-$katakana_data = json_decode($json);
-shuffle($katakana_data);
-$qs = [];
-foreach ($data as $value) {
-	$qs[] = new question($value[0],$value[1]);
-}
-$_SESSION["katakana_data"]=serialize($qs);
-$_SESSION["katakana_answers"]=[];
-?>
 <div class="">
 	<form action="" method="post">
 	<!--<input type="text" name="name" value="" placeholder="名前">-->
 	 <input type="hidden" name="question" value="0">
  	 <input type="hidden" name="answers" value="">
-	<button type="submit" class="btn btn-secondary">Hiragana quiz</button>
+	<button type="submit" class="btn btn-secondary">Start quiz</button>
 </form>
-	<form action="" method="post">
-	 <input type="hidden" name="question" value="0">
- 	 <input type="hidden" name="katakana_answers" value="">
-	<button type="submit" class="btn btn-secondary">Katakana quiz</button>
-</form>
-
 </div>
 </div>
 </div>
