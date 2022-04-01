@@ -1,75 +1,17 @@
-body {
-	margin: 0px;
-}
-.container {
-	display: flex;
-}
 
-.e {
+.quiz {
 	text-align: center;
 	font-size: 32px;
 	margin-top: 16px;
 
 }
 
-.buttons {
-	/*text-align: left;*/
-	margin-top: 48px;
-	margin-bottom: 32px;
-	/*justify-content: left;*/
-	flex-wrap: wrap;
-	display: flex;
-	flex-direction: column;
-	/*width: 350px;*/
-}
-
-.button-size {
-	padding: 24px 160px 24px 16px ;
-	text-align: left !important;
-	max-width: 200px;
-	min-width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 10%;
-}
-
-.border1 {
-	border: solid white;
-	border-radius: 5px;
-	border-width: 1px;
-}
-
-.kanjiToDefinition {
-	background-color: #00D1F8;
-}
-
-.kanjiToReading {
-	background-color: #D300F8;
-}
-
-.definitionToKanji {
-	background-color: limegreen;
-}
-
-.readingToKanji {
-	background-color: orangered;
-}
-
-
 .padding {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding: 0px 150px 150px 150px;
 }
 
 .margintop {
 	margin-top: 48px;
-}
-
-@media screen and (max-width: 600px) {
-.paddingmedia {
-	padding-left: 50px;
-	padding-right: 50px;
-}
 }
 
 .radiobtn {
@@ -77,11 +19,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	list-style-type: none;
-  margin: 25px 0 0 0;
-  padding-left: 0px;
-  font-size: 24px;
-  text-align: left;
-  	max-width: 200px;
+  	margin: 25px 0 0 0;
+  	font-size: 32px;
+  	text-align: left;
 	min-width: 200px;
 }
 
@@ -97,12 +37,16 @@ body {
 }
 
 .radiobtn input[type="radio"]:checked + label {
-background-color: darkgray !important;
+	background-color: #23262a;
     border-color: #4c4;
 }
 
 .radiobtn label:hover {
-	background-color: darkgray !important;
+	background-color: #2e3338;
+}
+
+.radiobtn input[type="radio"]:active + label {
+	background-color: #23262a;
 }
 
 #next {
@@ -115,68 +59,48 @@ background-color: darkgray !important;
 	font-size: 16px;
 }
 
-.nav {
-	background-color: #232629;
-	color: #FFFFFF;
-    width: 100%;
-    min-width: 766px;
-    font-size: 24px;
-    border-bottom: 1px solid<
-}
-
 .bg-color {
-
 	background-color: #31363b;
 }
 
-.header-learn {
-
+.navcolor {
+	background-color: #232629;
 }
 
-.dashboard-btn {
-	margin: 100px;
+.dropdown-item:active {
+	background-color: #2D3033;
+	color: #D8DBDF;
 }
 
-
-
-.dropbtn {
-  background-color: #343a40;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.dropdown-item:hover {
+	background-color: #2D3033;
+	color: #D8DBDF;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #343a40;
+.dropdown-item:focus {
+	background-color: #2D3033;
+	color: #D8DBDF;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.dropdown-item {
+	color: #D8DBDF;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-menu {
+	background-color: #2D3033;
+	color: #D8DBDF;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.quizbuttons {
+	padding: 12px;
+	text-indent: 6px;
 }
 
-.dropdown-content a:hover {background-color: #ddd}
-
-.show {display:block;}
-
-.show {
-  display: block;
+.btnshadow {
+	box-shadow: 0 5px #22262a;
 }
+
+.btnshadow:active {
+  box-shadow: 0 3px #22262a;
+  transform: translateY(2px);
+]

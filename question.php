@@ -6,7 +6,7 @@ class question {
     private $points;
     private $type;
     
-    public function __construct($question,$alternatives,$type,$points=1) {
+    public function __construct($question,$alternatives,$points=1) {
 		if (is_string($question)) {
 			$this->question = $question;
 		}
@@ -25,13 +25,6 @@ class question {
 		else {
 			throw new InvalidArgumentException('$points should be numeric.');
 		} 
-		if (is_string($type)) {
-			$this->type = $type;
-		}
-		else {
-			throw new InvalidArgumentException('$type should be a string.');		
-        
-    		}
 	}
 	public function getRandomOrder() 
 	{
@@ -45,8 +38,5 @@ class question {
 	}
 	public function getQuestion() {
 		return $this->question;
-	}
-	public function getType() {
-		return $this->type;
 	}
 }

@@ -1,0 +1,56 @@
+[
+  [
+    "Select the correct character for “yo”",
+    [
+      "よ",
+      "か",
+      "ゆ",
+      "は"
+    ]
+  ],
+  [
+    "Select the correct character for “ka”",
+    [
+      "か",
+      "は",
+      "の",
+      "や"
+    ]
+  ],
+  [
+    "Select the correct character for “ha”",
+    [
+      "は",
+      "ま",
+      "く",
+      "よ"
+    ]
+  ],
+  [
+    "Select the correct character for “ku”",
+    [
+      "く",
+      "か",
+      "へ",
+      "の"
+    ]
+  ],
+  [
+    "Select the correct character for “yu”",
+    [
+      "ゆ",
+      "て",
+      "よ",
+      "こ"
+    ]
+  ],
+  [
+    "Select the correct character for “ho”",
+    [
+      "ほ",
+      "は",
+      "ま",
+      "と"
+    ]
+  ]
+]
