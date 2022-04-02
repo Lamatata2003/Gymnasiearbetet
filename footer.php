@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="footer">
+<div class="footer shadow">
   <p>Copyright © 2022 Gengobu</p>
 </div>
 

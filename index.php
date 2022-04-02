@@ -11,15 +11,6 @@
 </head>
 <?php include("header.php")?>
 <body class="bg-color">
-<!-- 	<div class="d-flex flex-column align-content-center flex-wrap">
-		<form method="post" action="learn.php">
-			<button class="button-size btn-secondary" type="submit">Learn</button>
-		</form>
-		
-		<form method="post" action="quiz-index.php">
-				<button class="button-size btn-secondary" type="submit">Quiz</button>
-			</form>
-	</div>
- --></body>
+</body>
  <footer> <?php include("footer.php")?> </footer>
 </html>

@@ -1,6 +1,3 @@
-.container {
-	display: flex;
-}
 
 .quiz {
 	text-align: center;
@@ -8,44 +5,6 @@
 	margin-top: 16px;
 
 }
-
-.buttons {
-	/*text-align: left;*/
-	margin-top: 48px;
-	margin-bottom: 32px;
-	/*justify-content: left;*/
-	flex-wrap: wrap;
-	display: flex;
-	flex-direction: column;
-	/*width: 350px;*/
-}
-
-.button-size {
-	padding: 24px 160px 24px 16px ;
-	text-align: left !important;
-	max-width: 200px;
-	min-width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 10%;
-}
-
-.kanjiToDefinition {
-	background-color: #00D1F8;
-}
-
-.kanjiToReading {
-	background-color: #D300F8;
-}
-
-.definitionToKanji {
-	background-color: limegreen;
-}
-
-.readingToKanji {
-	background-color: orangered;
-}
-
 
 .padding {
 	padding: 0px 150px 150px 150px;
@@ -55,22 +14,14 @@
 	margin-top: 48px;
 }
 
-@media screen and (max-width: 600px) {
-.paddingmedia {
-	padding-left: 50px;
-	padding-right: 50px;
-}
-}
-
 .radiobtn {
 	flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
 	list-style-type: none;
-  margin: 25px 0 0 0;
-  font-size: 32px;
-  text-align: left;
-
+  	margin: 25px 0 0 0;
+  	font-size: 32px;
+  	text-align: left;
 	min-width: 200px;
 }
 
@@ -86,12 +37,16 @@
 }
 
 .radiobtn input[type="radio"]:checked + label {
-	background-color: darkgray !important;
+	background-color: #23262a;
     border-color: #4c4;
 }
 
 .radiobtn label:hover {
-	background-color: darkgray !important;
+	background-color: #2e3338;
+}
+
+.radiobtn input[type="radio"]:active + label {
+	background-color: #23262a;
 }
 
 #next {
@@ -140,3 +95,12 @@
 	padding: 12px;
 	text-indent: 6px;
 }
+
+.btnshadow {
+	box-shadow: 0 5px #22262a;
+}
+
+.btnshadow:active {
+  box-shadow: 0 3px #22262a;
+  transform: translateY(2px);
+]

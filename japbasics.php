@@ -9,6 +9,7 @@
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
-
+	// Introduction do Hiragana and Katakana
 </body>
+<footer> <?php include("footer.php")?> </footer>
 </html>

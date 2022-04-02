@@ -13,7 +13,7 @@
 
 	<div class="d-flex flex-column align-content-center flex-wrap">
 <?php // Takes raw question data from the file
-$json = file_get_contents('questions.json');
+$json = file_get_contents('hiragana_questions.json');
 // Converts it into a PHP object
 $data = json_decode($json);
 shuffle($data);
