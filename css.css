@@ -103,4 +103,8 @@
 .btnshadow:active {
   box-shadow: 0 3px #22262a;
   transform: translateY(2px);
-]
+}
+
+.greycolor {
+	color: #D8DBDF;
+}

@@ -9,6 +9,10 @@
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
+	<div class="d-flex flex-row justify-content-center">
+		<h1 class="greycolor">Hiragana</h1>
+		<h1 class="greycolor">Katakana</h1>
+	</div>
 </body>
 <footer> <?php include("footer.php")?> </footer>
 </html>
