@@ -541,6 +541,13 @@
 	max-width: px;
 }
 
+@media only screen and (min-width: 600px) {
+	.chart {
+		max-width: 600px;
+	}
+  }
+
+
 #wrapper {
 	padding: 0 15px;
 	box-sizing: border-box;
