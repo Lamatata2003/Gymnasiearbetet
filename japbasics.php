@@ -11,33 +11,74 @@
 <body class="bg-color">
 	<div class="japatext d-flex flex-column">
 		<h1 class="greycolor">Japanese basics</h1>
-		<p class="greycolor">To get to the next step, please press one of these following categories below.</p>
+		<p class="greycolor">To get to the next step, please read and choose one of these following categories below.</p>
 		
 		</div>
 
-<div class="d-flex flex-row">
-		<div class="boxed greycolor">
-  <h2>The Basics</h2>
-  <p>The Basics of the language</p>
+<div class="d-flex">
+	<div class="boxed greycolor" style="display: flex; width:40%">
+		<div>
+			<h2>The Basics</h2>
+			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+		</div>
+		<div style="vertical-align: middle;" id="bajs" >
+			<ul>
+				<li><button class="button"><span>Lesson 1 </span></button></li>
+				<li><button class="button"><span>Lesson 2 </span></button></li>
+				<li><button class="button"><span>Lesson 3 </span></button></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="boxed greycolor" style="display: flex; width:40%">
+		<div>
+			<h2>Hiragana</h2>
+			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+		</div>
+		<div style="vertical-align: middle;" id="bajs" >
+			<ul>
+				<li><button class="button"><span>Lesson 1 </span></button></li>
+				<li><button class="button"><span>Lesson 2 </span></button></li>
+				<li><button class="button"><span>Lesson 3 </span></button></li>
+			</ul>
+		</div>
+
+	</div>
+
 </div>
 
-<div class="boxed greycolor">
-  <h2>Hiragana</h2>
-  <p>Learn about the Hiragana alphabet</p>
-  <p></p>
-</div>
-</div>
-<div class="d-flex flex-row">
-		<div class="boxed greycolor">
-  <h2>Katakana</h2>
-  <p>Learn about the Katakana alphabet</p>
-</div>
 
-<div class="boxed greycolor">
-  <h2>Kanji</h2>
-  <p>learn about Kanji</p>
-  <p></p>
-</div>
+<div class="d-flex">
+		<div class="boxed greycolor" style="display: flex; width:40%">
+		<div>
+			<h2>Katakana</h2>
+			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+		</div>
+		<div style="vertical-align: middle;" id="bajs" >
+			<ul>
+				<li><button class="button"><span>Lesson 1 </span></button></li>
+				<li><button class="button"><span>Lesson 2 </span></button></li>
+				<li><button class="button"><span>Lesson 3 </span></button></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="boxed greycolor" style="display: flex; width:40%">
+		<div>
+			<h2>Kanji</h2>
+			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+		</div>
+		<div style="vertical-align: middle;" id="bajs" >
+			<ul>
+				<li><button class="button"><span>Lesson 1 </span></button></li>
+				<li><button class="button"><span>Lesson 2 </span></button></li>
+				<li><button class="button"><span>Lesson 3 </span></button></li>
+			</ul>
+		</div>
+
+	</div>
 </div>
 <style type="text/css">
 	.boxed {
@@ -57,6 +98,51 @@
 	margin-bottom: 0px;
 
 }
+.button {
+    padding-right:40px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid black;
+    color: ;
+    background-color: ;
+    border-radius: 10px;
+    width: 140px;
+
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+li {
+list-style: none;
+
+}
+
 </style>
 </body>
 <footer> <?php include("footer.php")?> </footer>
