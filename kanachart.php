@@ -13,9 +13,13 @@
 	<h1 class="greycolor">Kana Chart</h1>
 	<p class="greycolor">Tap on any character to hear its pronunciation.</p>
 	</div>
-		<div class="d-flex flex-row justify-content-around">
-		<div class="greycolor float-start text-decoration-underline">Hiragana</div>
-		<div class="greycolor float-end text-decoration-underline">Katakana</div>
+	<div class="d-flex flex-row justify-content-around w-100">
+		<div class="kanatext">
+			<div class="greycolor float-start text-decoration-underline fontsize">Hiragana</div>
+		</div>
+		<div class="kanatext">
+			<div class="greycolor float-end text-decoration-underline fontsize">Katakana</div>
+		</div>
 	</div>
 	<div class="d-flex flex-row justify-content-center">
 	<div class="flexbox-item"></div>
@@ -540,16 +544,26 @@
 .chart {
 	max-width: px;
 }
-
+.fontsize {
+	font-size: 24px;
+}
 @media only screen and (min-width: 600px) {
 	.chart {
 		max-width: 600px;
 	}
+	.fontsize {
+	font-size: 32px;
+	}
+
   }
 
 
 #wrapper {
 	padding: 0 15px;
 	box-sizing: border-box;
+}
+
+.kanatext {
+
 }
 </style>
