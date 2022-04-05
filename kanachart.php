@@ -443,28 +443,10 @@
 					</div>
 				</td>
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
 				<td>
 					<span class="greycolor">
@@ -478,43 +460,238 @@
 
 <tr>
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
+
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
+
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
+
 				<td>
-					<span class="greycolor">
-						
-					</span>
-					<div>
-						
-					</div>
 				</td>
+
 				<td>
 					<span class="greycolor">
 						ん
 					</span>
 					<div>
 						n
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						が
+					</span>
+					<div>
+						ga
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぎ
+					</span>
+					<div>
+						gi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぐ
+					</span>
+					<div>
+						gu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						げ
+					</span>
+					<div>
+						ge
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ご
+					</span>
+					<div>
+						go
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ざ
+					</span>
+					<div>
+						za
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						じ
+					</span>
+					<div>
+						ji
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ず
+					</span>
+					<div>
+						zu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぜ
+					</span>
+					<div>
+						ze
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぞ
+					</span>
+					<div>
+						zo
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						だ
+					</span>
+					<div>
+						da
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぢ
+					</span>
+					<div>
+						ji
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						づ
+					</span>
+					<div>
+						dzu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						で
+					</span>
+					<div>
+						de
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ど
+					</span>
+					<div>
+						do
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ば
+					</span>
+					<div>
+						ba
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						び
+					</span>
+					<div>
+						bi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぶ
+					</span>
+					<div>
+						bu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						べ
+					</span>
+					<div>
+						be
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぼ
+					</span>
+					<div>
+						bo
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ぱ
+					</span>
+					<div>
+						pa
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぴ
+					</span>
+					<div>
+						pi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぷ
+					</span>
+					<div>
+						pu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぺ
+					</span>
+					<div>
+						pe
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ぽ
+					</span>
+					<div>
+						po
 					</div>
 				</td>																				
 			</tr>
@@ -994,6 +1171,221 @@
 					</span>
 					<div>
 						n
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ガ
+					</span>
+					<div>
+						ga
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ギ
+					</span>
+					<div>
+						gi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						グ
+					</span>
+					<div>
+						gu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ゲ
+					</span>
+					<div>
+						ge
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ゴ
+					</span>
+					<div>
+						go
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ザ
+					</span>
+					<div>
+						za
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ジ
+					</span>
+					<div>
+						ji
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ズ
+					</span>
+					<div>
+						zu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ゼ
+					</span>
+					<div>
+						ze
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ゾ
+					</span>
+					<div>
+						zo
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						ダ
+					</span>
+					<div>
+						da
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヂ
+					</span>
+					<div>
+						ji
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヅ
+					</span>
+					<div>
+						dzu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						デ
+					</span>
+					<div>
+						de
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ド
+					</span>
+					<div>
+						do
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						バ
+					</span>
+					<div>
+						ba
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ビ
+					</span>
+					<div>
+						bi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ブ
+					</span>
+					<div>
+						bu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ベ
+					</span>
+					<div>
+						be
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ボ
+					</span>
+					<div>
+						bo
+					</div>
+				</td>																				
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						パ
+					</span>
+					<div>
+						pa
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ピ
+					</span>
+					<div>
+						pi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						プ
+					</span>
+					<div>
+						pu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ペ
+					</span>
+					<div>
+						pe
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ポ
+					</span>
+					<div>
+						po
 					</div>
 				</td>																				
 			</tr>
