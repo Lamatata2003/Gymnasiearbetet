@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kana Chart - Gengobu</title>
+	<script>
+		function toggleHira() {
+			$("#hiragana").show()
+			element = document.querySelector('#katakana')
+			element.style.display = 'none'
+			}
+
+		function toggleKata() {
+			$("#katakana").show()
+			$("#hiragana").hide()
+		}
+
+	</script>
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
@@ -13,20 +28,25 @@
 	<h1 class="greycolor">Kana Chart</h1>
 	<p class="greycolor">Tap on any character to hear its pronunciation.</p>
 	</div>
-	<div class="d-flex flex-row justify-content-around w-100">
+	<div class="d-flex flex-row justify-content-center w-100">
 		<div class="kanatext">
-			<div class="greycolor float-start text-decoration-underline fontsize">Hiragana</div>
+			<button class="btn greycolor float-start text-decoration-underline fontsize" onclick="toggleHira()">
+          Hiragana
+        	</button>
 		</div>
 		<div class="kanatext">
-			<div class="greycolor float-end text-decoration-underline fontsize">Katakana</div>
+			<button class="btn greycolor float-end text-decoration-underline fontsize" onclick="toggleKata()">
+			Katakana
+		</button>
 		</div>
 	</div>
 	<div class="d-flex flex-row justify-content-center">
 	<div class="flexbox-item"></div>
 	<div class="border border-2 flex-grow-1 chart lightergrey">
 	<div class="text-center">
-	<table class="d-inline chartable text-center kanafont">
-		<tbody class="d-inline justify-content-around">
+		<div id="hiragana">
+			<table class="d-inline chartable text-center kanafont">
+			<tbody class="d-inline justify-content-around">
 			<tr>
 				<td>
 					<span class="greycolor">
@@ -498,21 +518,505 @@
 						n
 					</div>
 				</td>																				
-			</tr>																										
-		</tbody>
-			
-		</div>
-	</table>
-</div>
+			</tr>
+			</tbody>
+			</table>
+			</div>
 
+			<div id="katakana">
+				<table class="d-inline chartable text-center kanafont">
+				<tbody class="d-inline justify-content-around">
+			<tr>
+				<td>
+					<span class="greycolor">
+						ア
+					</span>
+					<div>
+						a
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						イ
+					</span>
+					<div>
+						i
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ウ
+					</span>
+					<div>
+						u
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						エ
+					</span>
+					<div>
+						e
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						オ
+					</span>
+					<div>
+						o
+					</div>
+				</td>																				
+			</tr>
 
-</div>
-<div class="flexbox-item"></div>
+			<tr>
+				<td>
+					<span class="greycolor">
+						カ
+					</span>
+					<div>
+						ka
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						キ
+					</span>
+					<div>
+						ki
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ク
+					</span>
+					<div>
+						ku
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ケ
+					</span>
+					<div>
+						ke
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						コ
+					</span>
+					<div>
+						ko
+					</div>
+				</td>																			
+			</tr>
+
+			<tr>
+				<td>
+					<span class="greycolor">
+						サ
+					</span>
+					<div>
+						sa
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						シ
+					</span>
+					<div>
+						shi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ス
+					</span>
+					<div>
+						su
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						セ
+					</span>
+					<div>
+						se
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ソ
+					</span>
+					<div>
+						so
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						タ
+					</span>
+					<div>
+						ta
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						チ
+					</span>
+					<div>
+						chi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ツ
+					</span>
+					<div>
+						tsu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						テ
+					</span>
+					<div>
+						te
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ト
+					</span>
+					<div>
+						to
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						ナ
+					</span>
+					<div>
+						na
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ニ
+					</span>
+					<div>
+						ni
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヌ
+					</span>
+					<div>
+						nu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ネ
+					</span>
+					<div>
+						ne
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ノ
+					</span>
+					<div>
+						no
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						ハ
+					</span>
+					<div>
+						ha
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヒ
+					</span>
+					<div>
+						hi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						フ
+					</span>
+					<div>
+						fu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヘ
+					</span>
+					<div>
+						he
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ホ
+					</span>
+					<div>
+						ho
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						マ
+					</span>
+					<div>
+						ma
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ミ
+					</span>
+					<div>
+						mi
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ム
+					</span>
+					<div>
+						mu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						メ
+					</span>
+					<div>
+						me
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						モ
+					</span>
+					<div>
+						mo
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						ヤ
+					</span>
+					<div>
+						ya
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ユ
+					</span>
+					<div>
+						yu
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヨ
+					</span>
+					<div>
+						yo
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						ラ
+					</span>
+					<div>
+						ra
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						リ
+					</span>
+					<div>
+						ri
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ル
+					</span>
+					<div>
+						ru
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						レ
+					</span>
+					<div>
+						re
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ロ
+					</span>
+					<div>
+						ro
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						ワ
+					</span>
+					<div>
+						wa
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ヲ
+					</span>
+					<div>
+						wo
+					</div>
+				</td>																				
+			</tr>
+
+<tr>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						
+					</span>
+					<div>
+						
+					</div>
+				</td>
+				<td>
+					<span class="greycolor">
+						ン
+					</span>
+					<div>
+						n
+					</div>
+				</td>																				
+			</tr>
+			</tbody>
+			</table>
+			</div>
+			</div>
+			</div>
+			<div class="flexbox-item"></div>
+			</div>
+
 </body>
-<footer> <?php include("footer.php")?> </footer>
+<footer> 
+	<!-- <?php include("footer.php")?>  -->
+</footer>
 </html>
 
 <style type="text/css">
+	#katakana {
+		display: none;
+	}
+
 	.chartable {
     min-width: 400px;
     max-width: 100%;
@@ -547,6 +1051,7 @@
 .fontsize {
 	font-size: 24px;
 }
+
 @media only screen and (min-width: 600px) {
 	.chart {
 		max-width: 600px;
@@ -563,7 +1068,4 @@
 	box-sizing: border-box;
 }
 
-.kanatext {
-
-}
 </style>
