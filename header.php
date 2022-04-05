@@ -26,7 +26,6 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="kanachart.php">Kana Chart</a></li>
             <li><a class="dropdown-item" href="japbasics.php">Japanese Basics</a></li>
-            <li><a class="dropdown-item" href="grammar.php ">Grammar</a></li>
 
           </ul>
         </li>
