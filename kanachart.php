@@ -23,11 +23,14 @@
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
-	<div id="wrapper">
-	<h1 class="greycolor">Kana Chart</h1>
-	<p class="greycolor">Tap on any character to hear its pronunciation.</p>
+	<div class="d-flex justify-content-center">
+	<h1 class="greycolor margintop">Kana Chart</h1>
 	</div>
-	<div class="d-flex flex-row justify-content-center w-100">
+<!-- 	<div class="d-flex justify-content-center">
+		<p class="greycolor">Tap on any character to hear its pronunciation.</p>
+	</div> -->
+		
+	<div class="d-flex flex-row justify-content-center w-100 margintop">
 		<div class="kanatext">
 			<button class="btn greycolor float-start text-decoration-underline fontsize" onclick="toggleHira()">
           Hiragana
@@ -39,7 +42,7 @@
 		</button>
 		</div>
 	</div>
-	<div class="d-flex flex-row justify-content-center">
+	<div class="d-flex flex-row justify-content-center marginbottom">
 	<div class="flexbox-item"></div>
 	<div class="border border-2 flex-grow-1 chart lightergrey">
 	<div class="text-center">
@@ -1399,7 +1402,7 @@
 
 </body>
 <footer> 
-	<!-- <?php include("footer.php")?>  -->
+<?php include("footer.php")?> 
 </footer>
 </html>
 
@@ -1459,4 +1462,11 @@
 	box-sizing: border-box;
 }
 
+.marginbottom {
+	margin-bottom: 64px;
+}
+
+.margintop {
+	margin-top: 16px;
+}
 </style>

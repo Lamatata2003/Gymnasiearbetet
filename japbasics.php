@@ -16,10 +16,10 @@
 		</div>
 
 <div class="d-flex">
-	<div class="boxed greycolor" style="display: flex; width:40%">
+	<div class="boxed greycolor">
 		<div>
-			<h2>The Basics</h2>
-			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+			<h2>Introduction</h2>
+			<p>If you don't have any prior knowledge in japanese, this is the place to start.</p>
 		</div>
 		<div style="vertical-align: middle;" id="bajs" >
 			<ul>
@@ -31,7 +31,7 @@
 
 	</div>
 
-	<div class="boxed greycolor" style="display: flex; width:40%">
+	<div class="boxed greycolor">
 		<div>
 			<h2>Hiragana</h2>
 			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
@@ -50,7 +50,7 @@
 
 
 <div class="d-flex">
-		<div class="boxed greycolor" style="display: flex; width:40%">
+		<div class="boxed greycolor">
 		<div>
 			<h2>Katakana</h2>
 			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
@@ -65,9 +65,9 @@
 
 	</div>
 
-	<div class="boxed greycolor" style="display: flex; width:40%">
+	<div class="boxed greycolor">
 		<div>
-			<h2>Kanji</h2>
+			<h2>Grammar/Sentence structure</h2>
 			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
 		</div>
 		<div style="vertical-align: middle;" id="bajs" >
@@ -84,13 +84,20 @@
 	.boxed {
   border: 2px solid black ;
   margin: 70px;
-  width: 100%;
+  width: 40%;
   border-radius: 25px;
   padding: 20px;
   padding-left: 28px;
   height: 220px;
-
+  display: flex;
 }
+
+@media only screen and (max-width: 800px) {
+	.boxed {
+		height: 400px;
+	}
+
+  }
 
 .japatext {
 	padding-left: 78px;
