@@ -15,6 +15,7 @@
 		
 		</div>
 
+<div class="d-flex">
 	<div class="boxed greycolor" style="display: flex; width:40%">
 		<div>
 			<h2>The Basics</h2>
@@ -45,10 +46,10 @@
 
 	</div>
 
+</div>
 
 
-
-
+<div class="d-flex">
 		<div class="boxed greycolor" style="display: flex; width:40%">
 		<div>
 			<h2>Katakana</h2>
@@ -78,6 +79,7 @@
 		</div>
 
 	</div>
+</div>
 <style type="text/css">
 	.boxed {
   border: 2px solid black ;
