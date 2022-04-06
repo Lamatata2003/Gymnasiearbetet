@@ -41,6 +41,8 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
                         <label class=\"text-light border border-2 border-white rounded quizbuttons btnshadow\" for=\"$qs[$i]\">$qs[$i]</label>";
 
                         }
+
+
                         ?>
                 </div>
             <input class="btn btn-secondary mt-2" id="next" type="submit" name="pager" value="Next" disabled="disabled">
