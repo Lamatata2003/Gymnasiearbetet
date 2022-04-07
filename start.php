@@ -12,28 +12,25 @@
 
 		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
-		$json = file_get_contents('hiragana_questions.json');
-		// Converts it into a PHP object
-		$data = json_decode($json);
-		shuffle($data);
-		$qs = [];
-		foreach ($data as $value) {
-			$qs[] = new question($value[0],$value[1]);
-			$qs1[] = new question($value[0],$value[1]);
-		}
-		$_SESSION["data"]=serialize($qs);
-		$_SESSION["answers"]=[];
 
-		$json = file_get_contents('katakana_questions1.json');
-		// Converts it into a PHP object
-		$datakata1 = json_decode($json);
-		shuffle($datakata1);
-		$qskata1 = [];
-		foreach ($datakata1 as $value) {
-			$qskata1[] = new question($value[0],$value[1]);
+		$var = "";
+		$arr = ["hiragana_questions.json","katakana_questions1.json"];
+		if (isset($_POST["json"]) == "hiragana_questions") {
+			$var = $arr[0];
 		}
-		$_SESSION["data"]=serialize($qskata1);
-		$_SESSION["answers"]=[];
+		if (isset($_POST["json"])) {
+		
+			$json = file_get_contents($var);
+			// Converts it into a PHP object
+			$data = json_decode($json);
+			shuffle($data);
+			$qs = [];
+			foreach ($data as $value) {
+				$qs[] = new question($value[0],$value[1]);
+			}
+			$_SESSION["data"]=serialize($qs);
+			$_SESSION["answers"]=[];
+		}
 		?>
 		<div class="">
 			<form action="" method="post">
@@ -58,14 +55,14 @@
 					<form action="" method="post">
 			 			<input type="hidden" name="question" value="0">
 		 	 			<input type="hidden" name="answers" value="">
-						<button class="button"><span>Hiragana 1 </span></button>
+						<button class="button" name="json" value="hiragana_questions"><span>Hiragana 1 </span></button>
 					</form>
 				</li>
 				<li>
 					<form action="" method="post">
 				 		<input type="hidden" name="question" value="0">
 			 	 		<input type="hidden" name="answers" value="">
-						<button class="button"><span>Hiragana 2</span></button>
+						<button class="button" value="hiragana_questions"><span>Hiragana 2</span></button>
 					</form>
 				</li>
 				<li><button class="button"><span>Hiragana 3</span></button></li>
