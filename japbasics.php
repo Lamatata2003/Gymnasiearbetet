@@ -5,13 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Japanese basics - Gengobu</title>
+	<title>Lessons - Gengobu</title>
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
 	<div class="japatext d-flex flex-column">
-		<h1 class="greycolor">Japanese basics</h1>
-		<p class="greycolor">To get to the next step, please read and choose one of these following categories below.</p>
+		<h1 class="greycolor">Lessons</h1>
+		<p class="greycolor">This is where most of the learning progress will be made, to later be able to do the tests.</p>
 		
 		</div>
 

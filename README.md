@@ -1,5 +1,5 @@
 # Gymnasiearbetet
-Language learning sida med Hampus
+Language learning Liam & Hampus
 
 
 Hauii = Trash taste

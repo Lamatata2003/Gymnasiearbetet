@@ -95,6 +95,7 @@
 							Grammar
 						</div>
 						<div class="greycolor desctext">
+							Test your knowledge in grammar
 
 						</div>
 					</div>
@@ -124,7 +125,7 @@
 	}
 
 	.desctext {
-		font-weight: 500;
+		font-weight: 450;
 	}
 	.fontsize {
 		font-size: 28px;
