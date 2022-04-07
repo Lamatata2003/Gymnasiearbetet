@@ -39,162 +39,145 @@
 		 	 <input type="hidden" name="answers" value="">
 <!-- 			<button type="submit" class="btn btn-secondary">Start quiz</button> -->
 </form>
-			<h1 class="greycolor d-flex margintop justify-content-center">Test your knowledge</h1>
-		<p class="greycolor d-flex justify-content-center"></p>
-		
-		</div>
-
-	<div class="boxed greycolor">
-		<div>
-			<h2>Hiragana</h2>
-			<p>Test your knowledge of Hiragana. Hiragana is what we recommend you to learn first before you dive in to other parts of the language.</p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li>
-					<form action="" method="post">
-			 			<input type="hidden" name="question" value="0">
-		 	 			<input type="hidden" name="answers" value="">
-						<button class="button" name="json" value="hiragana_questions"><span>Hiragana 1 </span></button>
-					</form>
-				</li>
-				<li>
-					<form action="" method="post">
-				 		<input type="hidden" name="question" value="0">
-			 	 		<input type="hidden" name="answers" value="">
-						<button class="button" value="hiragana_questions"><span>Hiragana 2</span></button>
-					</form>
-				</li>
-				<li><button class="button"><span>Hiragana 3</span></button></li>
-			</ul>
-		</div>
-
+			<div class="d-flex justify-content-center">
+	<h1 class="greycolor margintop">Test your knowledge</h1>
 	</div>
+	<div class="d-flex flex-row justify-content-center margintop">
+		<div class="flexbox-item"></div>
+			<div class="flex-column ">
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+					<div class="flex-column">
+						<div class="greycolor fontsize">
+							Hiragana
+						</div>
+						<div class="greycolor desctext">
+							Test your knowledge of Hiragana. Hiragana is a necessity and is the first thing you should learn in Japanese.
+						</div>
+					</div>
+					<div class="d-flex justify-content-center flex-column rightbuttons">
+						<button class="border rounded buttons">
+							Hiragana 1
+						</button>
+						<button class="border rounded buttons">
+							Hiragana 2
+						</button>
+						<button class="border rounded buttons">
+							Hiragana 3
+						</button>
+					</div>
+			</div>
 
-	<div class="boxed greycolor">
-		<div>
-			<h2>Katakana</h2>
-			<p>Test your knowledge of Katakana. Similar to Hiragana, Katakana is also a necessity when it comes learning Japanese. You should have a general grasp of Katakana before you dive in to other parts of the language.</p>
+			<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+					<div class="flex-column">
+						<div class="greycolor fontsize">
+							Katakana
+						</div>
+						<div class="greycolor desctext">
+							Test your knowledge of Katakana.
+						</div>
+					</div>
+					<div class="d-flex justify-content-center flex-column rightbuttons">
+						<button class="border rounded buttons">
+							Katakana 1
+						</button>
+						<button class="border rounded buttons">
+							Katakana 2
+						</button>
+						<button class="border rounded buttons">
+							Katakana 3
+						</button>
+					</div>
+			</div>
+
+			<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+					<div class="flex-column">
+						<div class="greycolor fontsize">
+							Grammar
+						</div>
+						<div class="greycolor desctext">
+
+						</div>
+					</div>
+					<div class="d-flex justify-content-center flex-column rightbuttons">
+						<button class="border rounded buttons">
+							Grammar 1
+						</button>
+						<button class="border rounded buttons">
+							Grammar 2
+						</button>
+						<button class="border rounded buttons">
+							Grammar 3
+						</button>
+					</div>
+			</div>
 		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Katakana 1</span></button></li>
-				<li><button class="button"><span>Katakana 2</span></button></li>
-				<li><button class="button"><span>Katakana 3</span></button></li>
-			</ul>
-		</div>
-
-	</div>
-
-
-
-
-
-
-
-
-
-
-		<div class="boxed greycolor">
-		<div>
-			<h2>Vocabulary</h2>
-			<p></p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Greetings</span></button></li>
-				<li><button class="button"><span>Food</span></button></li>
-				<li><button class="button"><span>Colors</span></button></li>
-			</ul>
-		</div>
-
-	</div>
-
-	<div class="boxed greycolor" id="bottom">
-		<div>
-			<h2>Stage 3</h2>
-			<p></p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span> </span></button></li>
-				<li><button class="button"><span>Katakana 4 </span></button></li>
-				<li><button class="button"><span>Hiragana 4 </span></button></li>
-			</ul>
-		</div>
-
-	</div>
-
-			
-		</div>
-	</div>
+	<div class="flexbox-item"></div>
 </div>
 
 <style type="text/css">
-	.boxed {
-  border: 2px solid black ;
-  margin: 20px 70px 20px 70px;
-  width: 70%;
-  border-radius: 25px;
-  padding: 20px;
-  padding-left: 28px;
-  height: 220px;
-  display: flex;
-}
-#bottom {
-	margin-bottom: 64px;
-}
-.japatext {
-	padding-left: 78px;
-	margin: 20px;
-	margin-bottom: 0px;
+	.flexbox-item {
+		width: 30px;
+	}
 
-}
-.button {
-    padding-right:40px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    display: block;
-    border: 1px solid black;
-    color: ;
-    background-color: ;
-    border-radius: 10px;
-    width: 140px;
+	.box {
+		width: 300px;
+	}
 
-}
+	.desctext {
+		font-weight: 500;
+	}
+	.fontsize {
+		font-size: 28px;
+		font-weight: 500;
+	}
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+	.textpadding {
+		padding: 4px 16px 16px 16px;
+	}
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -10px;
-  transition: 0.5s;
-}
+	.buttons {
+		margin: 8px 0px 0px 0px;
+		font-weight: 500;
+		height: 32px;
+	}
 
-.button:hover span {
-  padding-right: 8px;
-}
+	@media only screen and (min-width: 600px) {
+		.box {
+			width: 500px;
+		}
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+		.buttons {
+			height: 38px;
+		}
 
-li {
-list-style: none;
+  }
 
-}
+  @media only screen and (min-width: 900px) {
+		.box {
+			width: 800px;
+			display: flex;
+		}
+		.buttons {
+			width: 400px;
+			text-align: left;
+			padding-left: 10px;
+			height: 50px;
+		}
 
+		.fontsize {
+			font-size: 36px;
+		}
+
+		.desctext {
+			font-size: 20px;
+		}
+
+
+  }
+
+  .marginbottom {
+  	margin-bottom: 32px;
+  }
 </style>
 </body>
 </html>
-
