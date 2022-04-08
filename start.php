@@ -12,7 +12,6 @@
 
 		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
-
 		$var = "";
 		$arr = ["hiragana_questions.json","katakana_questions1.json"];
 		if (isset($_POST["json"]) == "hiragana_questions") {
@@ -32,16 +31,9 @@
 			$_SESSION["answers"]=[];
 		}
 		?>
-		<div class="">
-			<form action="" method="post">
-			<!--<input type="text" name="name" value="" placeholder="名前">-->
-			 <input type="hidden" name="question" value="0">
-		 	 <input type="hidden" name="answers" value="">
-<!-- 			<button type="submit" class="btn btn-secondary">Start quiz</button> -->
-</form>
-			<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center">
 	<h1 class="greycolor margintop">Test your knowledge</h1>
-	</div>
+</div>
 	<div class="d-flex flex-row justify-content-center margintop">
 		<div class="flexbox-item"></div>
 			<div class="flex-column ">
@@ -55,9 +47,13 @@
 						</div>
 					</div>
 					<div class="d-flex justify-content-center flex-column rightbuttons">
-						<button class="border rounded buttons">
-							Hiragana 1
-						</button>
+						<form action="" method="post">
+							<input type="hidden" name="question" value="hiragana_questions">
+ 							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
+								Hiragana 1
+							</button>
+						</form>
 						<button class="border rounded buttons">
 							Hiragana 2
 						</button>
@@ -65,53 +61,53 @@
 							Hiragana 3
 						</button>
 					</div>
-			</div>
+				</div>
 
-			<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-					<div class="flex-column">
-						<div class="greycolor fontsize">
-							Katakana
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Katakana
+							</div>
+							<div class="greycolor desctext">
+								Test your knowledge of Katakana.
+							</div>
 						</div>
-						<div class="greycolor desctext">
-							Test your knowledge of Katakana.
+						<div class="d-flex justify-content-center flex-column rightbuttons">
+							<button class="border rounded buttons">
+								Katakana 1
+							</button>
+							<button class="border rounded buttons">
+								Katakana 2
+							</button>
+							<button class="border rounded buttons">
+								Katakana 3
+							</button>
 						</div>
-					</div>
-					<div class="d-flex justify-content-center flex-column rightbuttons">
-						<button class="border rounded buttons">
-							Katakana 1
-						</button>
-						<button class="border rounded buttons">
-							Katakana 2
-						</button>
-						<button class="border rounded buttons">
-							Katakana 3
-						</button>
-					</div>
-			</div>
+				</div>
 
-			<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-					<div class="flex-column">
-						<div class="greycolor fontsize">
-							Grammar
-						</div>
-						<div class="greycolor desctext">
-							Test your knowledge in grammar
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Grammar
+							</div>
+							<div class="greycolor desctext">
+								Test your knowledge in grammar
 
+							</div>
 						</div>
-					</div>
-					<div class="d-flex justify-content-center flex-column rightbuttons">
-						<button class="border rounded buttons">
-							Grammar 1
-						</button>
-						<button class="border rounded buttons">
-							Grammar 2
-						</button>
-						<button class="border rounded buttons">
-							Grammar 3
-						</button>
-					</div>
+						<div class="d-flex justify-content-center flex-column rightbuttons">
+							<button class="border rounded buttons">
+								Grammar 1
+							</button>
+							<button class="border rounded buttons">
+								Grammar 2
+							</button>
+							<button class="border rounded buttons">
+								Grammar 3
+							</button>
+						</div>
+				</div>
 			</div>
-		</div>
 	<div class="flexbox-item"></div>
 </div>
 
