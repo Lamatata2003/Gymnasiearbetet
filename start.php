@@ -126,6 +126,7 @@
 
 	.desctext {
 		font-weight: 450;
+		width: 300px;
 	}
 	.fontsize {
 		font-size: 28px;
@@ -151,6 +152,9 @@
 			height: 38px;
 		}
 
+		.desctext {
+		width: 500px;
+	}
   }
 
   @media only screen and (min-width: 900px) {
@@ -159,7 +163,7 @@
 			display: flex;
 		}
 		.buttons {
-			width: 400px;
+			width: 230px;
 			text-align: left;
 			padding-left: 10px;
 			height: 50px;
@@ -171,6 +175,7 @@
 
 		.desctext {
 			font-size: 20px;
+			width: 530px;
 		}
 
 
