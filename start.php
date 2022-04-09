@@ -12,7 +12,9 @@
 
 		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
-
+		if (!isset($_POST["question"])){
+			$_POST["question"] = "0";
+		}
 		$var = "";
 		$arr = ["hiragana_questions.json","katakana_questions1.json"];
 			
