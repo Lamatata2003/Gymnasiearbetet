@@ -47,19 +47,26 @@
 					</div>
 					<div class="d-flex justify-content-center flex-column ">
 						<form action="" method="post">
-							<input type="hidden" name="question" value="1">
+							<input type="hidden" name="question" value="0">
  							<input type="hidden" name="answers" value="">
 							<button type="submit" class="border rounded buttons">
 								Hiragana 1
 							</button>
 						</form>
-
-						<button class="border rounded buttons">
-							Hiragana 2
-						</button>
-						<button class="border rounded buttons">
-							Hiragana 3
-						</button>
+						<form action="" method="post">
+							<input type="hidden" name="question" value="1">
+ 							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
+								Hiragana 2
+							</button>
+						</form>
+						<form action="" method="post">
+							<input type="hidden" name="question" value="2">
+ 							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
+								Hiragana 3
+							</button>
+						</form>
 					</div>
 				</div>
 
