@@ -11,11 +11,11 @@
 </head>
 <body>
 <?php
-if (isset($_POST['pager'])) {
-    if ($_POST['pager']=="Previous") {
-        $_POST['question']=$_POST['question']-2;
-    }
-}
+// if (isset($_POST['pager'])) {
+//     if ($_POST['pager']=="Previous") {
+//         $_POST['question']=$_POST['question']-2;
+//     }
+// }
 
 $qo = unserialize($_SESSION['data'])[$_POST['question']];
 $qs = $qo->getRandomOrder();

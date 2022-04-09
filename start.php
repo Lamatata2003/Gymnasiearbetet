@@ -21,7 +21,7 @@
 			$json = file_get_contents($var);
 			// Converts it into a PHP object
 			$data = json_decode($json);
-			getRandomOrder($data);
+	
 			$qs = [];
 			foreach ($data as $value) {
 				$qs[] = new question($value[0],$value[1]);
