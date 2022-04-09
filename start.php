@@ -12,17 +12,16 @@
 
 		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
+
 		$var = "";
 		$arr = ["hiragana_questions.json","katakana_questions1.json"];
-		if (isset($_POST["json"]) == "hiragana_questions") {
-			$var = $arr[0];
-		}
-		if (isset($_POST["json"])) {
-		
+			
+		if (isset($_POST["question"])) {
+			$var = $arr[$_POST["question"]];
 			$json = file_get_contents($var);
 			// Converts it into a PHP object
 			$data = json_decode($json);
-			shuffle($data);
+			getRandomOrder($data);
 			$qs = [];
 			foreach ($data as $value) {
 				$qs[] = new question($value[0],$value[1]);
@@ -46,14 +45,15 @@
 							Test your knowledge of Hiragana. Hiragana is a necessity and is the first thing you should learn in Japanese.
 						</div>
 					</div>
-					<div class="d-flex justify-content-center flex-column rightbuttons">
+					<div class="d-flex justify-content-center flex-column ">
 						<form action="" method="post">
-							<input type="hidden" name="question" value="hiragana_questions">
+							<input type="hidden" name="question" value="1">
  							<input type="hidden" name="answers" value="">
 							<button type="submit" class="border rounded buttons">
 								Hiragana 1
 							</button>
 						</form>
+
 						<button class="border rounded buttons">
 							Hiragana 2
 						</button>
@@ -72,7 +72,7 @@
 								Test your knowledge of Katakana.
 							</div>
 						</div>
-						<div class="d-flex justify-content-center flex-column rightbuttons">
+						<div class="d-flex justify-content-center flex-column ">
 							<button class="border rounded buttons">
 								Katakana 1
 							</button>
@@ -95,7 +95,7 @@
 
 							</div>
 						</div>
-						<div class="d-flex justify-content-center flex-column rightbuttons">
+						<div class="d-flex justify-content-center flex-column ">
 							<button class="border rounded buttons">
 								Grammar 1
 							</button>
@@ -137,6 +137,7 @@
 		margin: 8px 0px 0px 0px;
 		font-weight: 500;
 		height: 32px;
+		width: 100%;
 	}
 
 	@media only screen and (min-width: 600px) {
