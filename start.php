@@ -71,25 +71,37 @@
 				</div>
 
 				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-						<div class="flex-column">
-							<div class="greycolor fontsize">
-								Katakana
-							</div>
-							<div class="greycolor desctext">
-								Test your knowledge of Katakana.
-							</div>
+					<div class="flex-column">
+						<div class="greycolor fontsize">
+							Katakana
 						</div>
-						<div class="d-flex justify-content-center flex-column ">
-							<button class="border rounded buttons">
+						<div class="greycolor desctext">
+							Test your knowledge of Katakana.
+						</div>
+					</div>
+					<div class="d-flex justify-content-center flex-column ">
+						<form action="" method="post">
+							<input type="hidden" name="question" value="3">
+							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
 								Katakana 1
 							</button>
-							<button class="border rounded buttons">
+						</form>
+						<form action="" method="post">
+							<input type="hidden" name="question" value="4">
+ 							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
 								Katakana 2
 							</button>
-							<button class="border rounded buttons">
+						</form>
+						<form action="" method="post">
+							<input type="hidden" name="question" value="5">
+ 							<input type="hidden" name="answers" value="">
+							<button type="submit" class="border rounded buttons">
 								Katakana 3
 							</button>
-						</div>
+						</form>
+					</div>
 				</div>
 
 				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
@@ -103,15 +115,27 @@
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
-							<button class="border rounded buttons">
-								Grammar 1
-							</button>
-							<button class="border rounded buttons">
-								Grammar 2
-							</button>
-							<button class="border rounded buttons">
-								Grammar 3
-							</button>
+							<form action="" method="post">
+								<input type="hidden" name="question" value="6">
+	 							<input type="hidden" name="answers" value="">
+								<button type="submit" class="border rounded buttons">
+									Grammar 1
+								</button>
+							</form>
+							<form action="" method="post">
+								<input type="hidden" name="question" value="7">
+	 							<input type="hidden" name="answers" value="">
+								<button type="submit" class="border rounded buttons">
+									Grammar 2
+								</button>
+							</form>
+							<form action="" method="post">
+								<input type="hidden" name="question" value="8">
+	 							<input type="hidden" name="answers" value="">
+								<button type="submit" class="border rounded buttons">
+									Grammar 3
+								</button>
+							</form>
 						</div>
 				</div>
 			</div>
