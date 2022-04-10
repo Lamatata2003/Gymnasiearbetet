@@ -12,24 +12,41 @@
 
 		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
+
+
 		if (!isset($_POST["question"])){
 			$_POST["question"] = 0;
 		}
+
+		if ($_POST['question'] == "0") {
+			$_POST['question'] = 0;
+		}
+
+		if ($_POST['question'] == "1") {
+			$_POST['question'] = 1;
+		}
+
+		
 		$var = "";
 		$arr = ["hiragana_questions.json","katakana_questions1.json"];
 			
 		if (isset($_POST["question"])) {
-			$var = $arr[$_POST["question"]];
+			unset($_SESSION["data"]);
+			unset($_SESSION["answers"]);
+			$intval = (int)$_POST["question"];
+			$var = $arr[$intval];
 			$json = file_get_contents($var);
 			// Converts it into a PHP object
 			$data = json_decode($json);
-	
+			
 			$qs = [];
 			foreach ($data as $value) {
 				$qs[] = new question($value[0],$value[1]);
 			}
 			$_SESSION["data"]=serialize($qs);
 			$_SESSION["answers"]=[];
+
+
 		}
 		?>
 <div class="d-flex justify-content-center">
@@ -59,7 +76,7 @@
 							<input type="hidden" name="question" value="1">
  							<input type="hidden" name="answers" value="">
 							<button type="submit" class="border rounded buttons">
-								Hiragana 2
+								Katakana 1
 							</button>
 						</form>
 						<form action="" method="post">

@@ -1,156 +1,218 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Lessons - Gengobu</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Quiz - Gengobu</title>
 </head>
-<?php include("header.php") ?>
+<?php include("header.php")?>
 <body class="bg-color">
-	<div class="japatext d-flex flex-column">
-		<h1 class="greycolor">Lessons</h1>
-		<p class="greycolor">This is where most of the learning progress will be made, to later be able to do the tests.</p>
-		
-		</div>
+<div class="d-flex justify-content-center">
+	<h1 class="greycolor margintop">Lessons</h1>
+</div>
+	<div class="d-flex flex-row justify-content-center margintop">
+		<div class="flexbox-item"></div>
+			<div class="d-flex flex-column">
+				<div class="flexrow">
+					<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Introduction
+							</div>
+							<div class="greycolor desctext">
+								Introduction to Japanese.
+							</div>
+						</div>
+						<div class="d-flex justify-content-center flex-column ">
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 1
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 2
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 3
+								</button>
+							</form>
+						</div>
+					</div>
+					<div class="flexbox-item"></div>
+					<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Hiragana
+							</div>
+							<div class="greycolor desctext">
+								Learn about Hiragana.
+							</div>
+						</div>
+						<div class="d-flex justify-content-center flex-column ">
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 1
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 2
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 3
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
 
-<div class="d-flex">
-	<div class="boxed greycolor">
-		<div>
-			<h2>Introduction</h2>
-			<p>If you don't have any prior knowledge in japanese, this is the place to start.</p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Lesson 1 </span></button></li>
-				<li><button class="button"><span>Lesson 2 </span></button></li>
-				<li><button class="button"><span>Lesson 3 </span></button></li>
-			</ul>
-		</div>
+			<div class="flexrow">	
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Katakana
+							</div>
+							<div class="greycolor desctext">
+								Learn about Katakana.
 
-	</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-center flex-column ">
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 1
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 2
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 3
+								</button>
+							</form>
+						</div>
+				</div>
+				<div class="flexbox-item"></div>
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+						<div class="flex-column">
+							<div class="greycolor fontsize">
+								Grammar
+							</div>
+							<div class="greycolor desctext">
+								Learn about grammar.
 
-	<div class="boxed greycolor">
-		<div>
-			<h2>Hiragana</h2>
-			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Lesson 1 </span></button></li>
-				<li><button class="button"><span>Lesson 2 </span></button></li>
-				<li><button class="button"><span>Lesson 3 </span></button></li>
-			</ul>
-		</div>
-
-	</div>
-
+							</div>
+						</div>
+						<div class="d-flex justify-content-center flex-column ">
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 1
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 2
+								</button>
+							</form>
+							<form action="" method="post">
+								<button type="submit" class="border rounded buttons">
+									Lesson 3
+								</button>
+							</form>
+						</div>
+				</div>
+			</div>
+			</div>
+	<div class="flexbox-item"></div>
 </div>
 
-
-<div class="d-flex">
-		<div class="boxed greycolor">
-		<div>
-			<h2>Katakana</h2>
-			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Lesson 1 </span></button></li>
-				<li><button class="button"><span>Lesson 2 </span></button></li>
-				<li><button class="button"><span>Lesson 3 </span></button></li>
-			</ul>
-		</div>
-
-	</div>
-
-	<div class="boxed greycolor">
-		<div>
-			<h2>Grammar/Sentence structure</h2>
-			<p>The Basics of the language Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-		</div>
-		<div style="vertical-align: middle;" id="bajs" >
-			<ul>
-				<li><button class="button"><span>Lesson 1 </span></button></li>
-				<li><button class="button"><span>Lesson 2 </span></button></li>
-				<li><button class="button"><span>Lesson 3 </span></button></li>
-			</ul>
-		</div>
-
-	</div>
-</div>
 <style type="text/css">
-	.boxed {
-  border: 2px solid black ;
-  margin: 70px;
-  width: 40%;
-  border-radius: 25px;
-  padding: 20px;
-  padding-left: 28px;
-  height: 220px;
-  display: flex;
-}
-
-@media only screen and (max-width: 800px) {
-	.boxed {
-		height: 400px;
+	.flexrow {
+		display: flex;
+		flex-direction: column;
 	}
 
+	.flexbox-item {
+		width: 30px;
+	}
+
+	.box {
+		width: 300px;
+	}
+
+	.desctext {
+		font-weight: 450;
+		width: 300px;
+	}
+	.fontsize {
+		font-size: 28px;
+		font-weight: 500;
+	}
+
+	.textpadding {
+		padding: 4px 16px 16px 16px;
+	}
+
+	.buttons {
+		margin: 8px 0px 0px 0px;
+		font-weight: 500;
+		height: 32px;
+		width: 100%;
+	}
+
+	@media only screen and (min-width: 600px) {
+		.box {
+			width: 500px;
+		}
+
+		.buttons {
+			height: 38px;
+		}
+
+		.desctext {
+		width: 500px;
+	}
   }
 
-.japatext {
-	padding-left: 78px;
-	margin: 20px;
-	margin-bottom: 0px;
+  @media only screen and (min-width: 1650px) {
+		.box {
+			width: 800px;
+			display: flex;
+		}
+		.buttons {
+			width: 230px;
+			text-align: left;
+			padding-left: 10px;
+			height: 50px;
+		}
 
-}
-.button {
-    padding-right:40px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    display: block;
-    border: 1px solid black;
-    color: ;
-    background-color: ;
-    border-radius: 10px;
-    width: 140px;
+		.fontsize {
+			font-size: 36px;
+		}
 
+		.desctext {
+			font-size: 20px;
+			width: 530px;
+		}
 
-}
+		.flexrow {
+		flex-direction: row !important;
+	}
+  }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 15px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-li {
-list-style: none;
-
-}
-
+  .marginbottom {
+  	margin-bottom: 32px;
+  }
 </style>
 </body>
-<footer> <?php include("footer.php")?> </footer>
 </html>
