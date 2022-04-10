@@ -11,6 +11,35 @@
 </head>
 <?php include("header.php")?>
 <body class="bg-color">
+	<div class="d-flex flex-row">
+		<div class="flexbox-item"></div>
+			<div class="position greycolor d-flex flex-column">
+				<h2>Welcome to Gengobu!</h2>
+				<p>This is a great place to start your language learning journey.</p>
+			</div>
+            <div class="flexbox-item"></div>
+			
+    </div>
+    <div class="d-flex justify-content-center flex-column ">
+    <form action="" method="post">
+		<input type="hidden" name="question">
+		<input type="hidden" name="answers" value="">
+		<button type="submit" class="border rounded buttons">
+			Learn
+		</button>
+	</form>
+</div>
 </body>
  <footer> <?php include("footer.php")?> </footer>
 </html>
+<style type="text/css">
+	.flexbox-item {
+		width: 30px;
+	}
+
+	.position {
+		margin-top:10px;
+		justify-content: center;
+	}
+
+</style>
