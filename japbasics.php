@@ -137,7 +137,9 @@
 			</div>
 	<div class="flexbox-item"></div>
 </div>
-
+<footer> 
+<?php include("footer.php")?> 
+</footer>
 <style type="text/css">
 	.flexrow {
 		display: flex;

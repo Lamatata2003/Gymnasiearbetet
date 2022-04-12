@@ -11,6 +11,81 @@
 </head>
 <?php include("header.php")?>
 <body class="bg-color">
+	<div class="d-flex flex-row position">
+		<div class="flexbox-item"></div>
+			<div class="greycolor d-flex flex-column">
+				<h1>Welcome to Gengobu!</h1>
+				<p>This is a great place to start your language learning journey!</p>
+			</div>
+            <div class="flexbox-item"></div>
+			
+    </div>
+    <div class="d-flex justify-content-center position">
+    	<div class="flex-column">
+	    	<div class="flexbox-item"></div>
+		    	<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
+			    	<h2>Introduction</h2>
+			    	<p>This is the core basics of the language and we recommend you go through this short introduction before starting anything else</p>
+				    <form action="" method="post" class="d-flex align-items-end">
+						<input type="hidden" name="question"value="">
+						<input type="hidden" name="answers" value="">
+						<button type="submit" class="border rounded buttons">
+							Introduction
+						</button>
+					</form>
+				</div>
+				<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
+			    	<h2>Learn</h2>
+			    	<p>Start learning!</p>
+				    <form action="" method="post">
+						<input type="hidden" name="question"value="">
+						<input type="hidden" name="answers" value="">
+						<button type="submit" class="border rounded buttons">
+							go to learn
+						</button>
+					</form>
+				</div>
+				<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
+			    	<h2>Test</h2>
+			    	<p>Already think that you have what it got? try by testing your knowledge now!</p>
+				    <form action="" method="post">
+						<input type="hidden" name="question"value="">
+						<input type="hidden" name="answers" value="">
+						<button type="submit" class="border rounded buttons">
+							go to test
+						</button>
+					</form>
+				</div>
+			<div class="flexbox-item"></div>
+		</div>
+	</div>
 </body>
  <footer> <?php include("footer.php")?> </footer>
 </html>
+<style type="text/css">
+	.flexbox-item {
+		width: 30px;
+	}
+
+	.position {
+		margin-top:16px;
+		justify-content: center;
+	}
+	.textpadding {
+		padding: 4px 16px 16px 16px;
+	}
+	.box {
+		width: 600px;
+		height: 185px;
+		margin-bottom: 45px;
+	}
+	.buttons {
+		font-weight: 500;
+		height: 32px;
+		width: 100%;
+		display: flex;
+
+
+	}
+
+</style>
