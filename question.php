@@ -4,7 +4,6 @@ class question {
 	private $question;
     private $alternatives;
     private $points;
-    private $type;
     
     public function __construct($question,$alternatives,$points=1) {
 		if (is_string($question)) {

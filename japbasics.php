@@ -2,19 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<script type="text/javascript" src="htmlblocks.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<title>Quiz - Gengobu</title>
 </head>
 <?php include("header.php")?>
+
 <body class="bg-color">
 <div class="d-flex justify-content-center">
 	<h1 class="greycolor margintop">Lessons</h1>
 </div>
 	<div class="d-flex flex-row justify-content-center margintop">
 		<div class="flexbox-item"></div>
-			<div class="d-flex flex-column">
+			<div class="d-flex flex-column" id="demo">
 				<div class="flexrow">
 					<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
 						<div class="flex-column">
@@ -26,19 +28,19 @@
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
+
+								<button type="button" class="border rounded buttons" onclick="hiragana()">
+									Hiragana
+								</button>
+
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 1
+									Katakana
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 2
-								</button>
-							</form>
-							<form action="" method="post">
-								<button type="submit" class="border rounded buttons">
-									Lesson 3
+									Kanji
 								</button>
 							</form>
 						</div>
@@ -47,26 +49,26 @@
 					<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
 						<div class="flex-column">
 							<div class="greycolor fontsize">
-								Hiragana
+								Grammar
 							</div>
 							<div class="greycolor desctext">
-								Learn about Hiragana.
+								Learn about some of the fundamentals of grammar.
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 1
+									How to use です
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 2
+									The は particle
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 3
+									How to make questions
 								</button>
 							</form>
 						</div>
@@ -77,27 +79,27 @@
 				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
 						<div class="flex-column">
 							<div class="greycolor fontsize">
-								Katakana
+								Verbs
 							</div>
 							<div class="greycolor desctext">
-								Learn about Katakana.
+								Learn about verbs.
 
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 1
+									Basic verbs
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 2
+									Negative conjugations
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 3
+									Past tense
 								</button>
 							</form>
 						</div>
@@ -106,27 +108,27 @@
 				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
 						<div class="flex-column">
 							<div class="greycolor fontsize">
-								Grammar
+								Adjectives
 							</div>
 							<div class="greycolor desctext">
-								Learn about grammar.
+								Learn about adjectives.
 
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 1
+									Basic adjectives
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 2
+									Negative conjugations
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									Lesson 3
+									
 								</button>
 							</form>
 						</div>

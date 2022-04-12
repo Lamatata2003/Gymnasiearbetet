@@ -14,8 +14,7 @@ session_start();
 <body class="bg-color">
 	<div class="d-flex justify-content-center">
 <?php
-require("question.php");
-require("nav.php");
+include("selectQuiz.php");
 ?>
 </div>
 </body>

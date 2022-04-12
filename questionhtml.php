@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quiz - Gengobu</title>
 </head>
-<body>
+<?php include("header.php") ?>
+<body class="bg-color">
 <?php
 // if (isset($_POST['pager'])) {
 //     if ($_POST['pager']=="Previous") {
@@ -25,7 +26,7 @@ $_SESSION["answers"][$_POST['question']-1] = $_POST["answers"];
 ?>
 
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-    <div class="d-flex">
+    <div class="d-flex justify-content-center">
         <div class="quiz padding">
             <h1 class="text-light margintop"><?php echo $qo->getQuestion()?> </h1>
                 <div class="radiobtn d-grid gap-2">

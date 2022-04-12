@@ -7,230 +7,34 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<title>Quiz - Gengobu</title>
 </head>
+<?php include("header.php") ?>
 <body class="bg-color">
-	<div>
-
-		<div class="d-flex flex-column align-content-center flex-wrap">
 		<?php // Takes raw question data from the file
-
-
-		if (!isset($_POST["question"])){
-			$_POST["question"] = "0";
-		}
-
-		if ($_POST['question'] == "0") {
-			$_POST['question'] = 0;
-		}
-
-		if ($_POST['question'] == "1") {
-			$_POST['question'] = 1;
-		}
-
-		
-		$var = "";
-		$arr = ["hiragana_questions.json","katakana_questions1.json"];
-			
-		if (isset($_POST["question"])) {
-			unset($_SESSION["data"]);
-			unset($_SESSION["answers"]);
-			$intval = (int)$_POST["question"];
-			$var = $arr[$intval];
-			$json = file_get_contents($var);
+			if (isset($_POST['selectQuiz'])) {
+			$json = file_get_contents('quizes/'.$_POST['selectQuiz'].'.json');
 			// Converts it into a PHP object
 			$data = json_decode($json);
-			
+			shuffle($data);
 			$qs = [];
 			foreach ($data as $value) {
 				$qs[] = new question($value[0],$value[1]);
 			}
 			$_SESSION["data"]=serialize($qs);
-			$_SESSION["answers"]=[];
+			}
 
-
-		}
 		?>
-<div class="d-flex justify-content-center">
-	<h1 class="greycolor margintop">Test your knowledge</h1>
+		<div class="d-flex justify-content-center align-items-center">
+		<form action="" method="post">
+ <input type="hidden" name="question" value="0">
+ <input type="hidden" name="answers" value="">
+ <button type="submit" class="border rounded startbutton">Start Quiz</button>
+</form>
 </div>
-	<div class="d-flex flex-row justify-content-center margintop">
-		<div class="flexbox-item"></div>
-			<div class="flex-column ">
-				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-					<div class="flex-column">
-						<div class="greycolor fontsize">
-							Hiragana
-						</div>
-						<div class="greycolor desctext">
-							Test your knowledge of Hiragana. Hiragana is a necessity and is the first thing you should learn in Japanese.
-						</div>
-					</div>
-					<div class="d-flex justify-content-center flex-column ">
-						<form action="" method="post">
-							<input type="hidden" name="question" value="0">
- 							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Hiragana 1
-							</button>
-						</form>
-						<form action="" method="post">
-							<input type="hidden" name="question" value="1">
- 							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Katakana 1
-							</button>
-						</form>
-						<form action="" method="post">
-							<input type="hidden" name="question" value="2">
- 							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Hiragana 3
-							</button>
-						</form>
-					</div>
-				</div>
-
-				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-					<div class="flex-column">
-						<div class="greycolor fontsize">
-							Katakana
-						</div>
-						<div class="greycolor desctext">
-							Test your knowledge of Katakana.
-						</div>
-					</div>
-					<div class="d-flex justify-content-center flex-column ">
-						<form action="" method="post">
-							<input type="hidden" name="question" value="3">
-							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Katakana 1
-							</button>
-						</form>
-						<form action="" method="post">
-							<input type="hidden" name="question" value="4">
- 							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Katakana 2
-							</button>
-						</form>
-						<form action="" method="post">
-							<input type="hidden" name="question" value="5">
- 							<input type="hidden" name="answers" value="">
-							<button type="submit" class="border rounded buttons">
-								Katakana 3
-							</button>
-						</form>
-					</div>
-				</div>
-
-				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
-						<div class="flex-column">
-							<div class="greycolor fontsize">
-								Grammar
-							</div>
-							<div class="greycolor desctext">
-								Test your knowledge in grammar
-
-							</div>
-						</div>
-						<div class="d-flex justify-content-center flex-column ">
-							<form action="" method="post">
-								<input type="hidden" name="question" value="6">
-	 							<input type="hidden" name="answers" value="">
-								<button type="submit" class="border rounded buttons">
-									Grammar 1
-								</button>
-							</form>
-							<form action="" method="post">
-								<input type="hidden" name="question" value="7">
-	 							<input type="hidden" name="answers" value="">
-								<button type="submit" class="border rounded buttons">
-									Grammar 2
-								</button>
-							</form>
-							<form action="" method="post">
-								<input type="hidden" name="question" value="8">
-	 							<input type="hidden" name="answers" value="">
-								<button type="submit" class="border rounded buttons">
-									Grammar 3
-								</button>
-							</form>
-						</div>
-				</div>
-			</div>
-	<div class="flexbox-item"></div>
-</div>
-
-<style type="text/css">
-	.flexbox-item {
-		width: 30px;
-	}
-
-	.box {
-		width: 300px;
-	}
-
-	.desctext {
-		font-weight: 450;
-		width: 300px;
-	}
-	.fontsize {
-		font-size: 28px;
-		font-weight: 500;
-	}
-
-	.textpadding {
-		padding: 4px 16px 16px 16px;
-	}
-
-	.buttons {
-		margin: 8px 0px 0px 0px;
-		font-weight: 500;
-		height: 32px;
-		width: 100%;
-	}
-
-	@media only screen and (min-width: 600px) {
-		.box {
-			width: 500px;
-		}
-
-		.buttons {
-			height: 38px;
-		}
-
-		.desctext {
-		width: 500px;
-	}
-  }
-
-  @media only screen and (min-width: 900px) {
-		.box {
-			width: 800px;
-			display: flex;
-		}
-		.buttons {
-			width: 230px;
-			text-align: left;
-			padding-left: 10px;
-			height: 50px;
-		}
-
-		.fontsize {
-			font-size: 36px;
-		}
-
-		.desctext {
-			font-size: 20px;
-			width: 530px;
-		}
-
-
-  }
-
-  .marginbottom {
-  	margin-bottom: 32px;
-  }
-</style>
 </body>
 </html>
+<style type="text/css">
+	.startbutton {
+		width: 200px;
+		height: 100px;
+	}
+</style>

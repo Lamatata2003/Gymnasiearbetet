@@ -7,7 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<title>Quiz</title>
 </head>
-<body>
+<?php include("header.php") ?>
+<body class="bg-color">
 	<div class="d-flex flex-column align-content-center flex-wrap">
 <h1 class="text-center text-white">やった!</h1>
 <?php 
