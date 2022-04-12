@@ -172,7 +172,7 @@
   }
 
   .marginbottom {
-    margin-bottom: 32px;
+    margin-bottom: 45px;
   }
 </style>
 </body>
