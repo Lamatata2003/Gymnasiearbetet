@@ -53,8 +53,7 @@
 	<h1 class="greycolor margintop">Test your knowledge</h1>
 </div>
 	<div class="d-flex flex-row justify-content-center margintop">
-		<div class="flexbox-item"></div>
-			<div class="flex-column ">
+			<div class="flex-column">
 				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
 					<div class="flex-column">
 						<div class="greycolor fontsize">
@@ -158,7 +157,6 @@
 						</div>
 				</div>
 			</div>
-	<div class="flexbox-item"></div>
 </div>
 
 <style type="text/css">
@@ -229,7 +227,7 @@
   }
 
   .marginbottom {
-  	margin-bottom: 32px;
+  	margin-bottom: 45px;
   }
 </style>
 </body>

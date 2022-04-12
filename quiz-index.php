@@ -12,9 +12,11 @@ session_start();
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
-	<div class="d-flex justify-content-center">
 <?php
 require("question.php");
+?>
+<div>
+<?php
 require("nav.php");
 ?>
 </div>
