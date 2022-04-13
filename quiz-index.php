@@ -12,10 +12,10 @@ session_start();
 </head>
 <?php include("header.php") ?>
 <body class="bg-color">
+	<div>
 <?php
 include("selectQuiz.php");
 ?>
-<div>
 </div>
 </body>
 <footer> <?php include("footer.php")?> </footer>
