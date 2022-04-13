@@ -114,3 +114,61 @@
 .margintop {
 	margin-top: 16px;
 }
+
+.lessonbox {
+	width: 300px;
+}
+.lessontext {
+	width: 250px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.topbox {
+	height: 50px;
+}
+
+.lessonbtn {
+	padding: 6px 16px 6px 16px;
+}
+.returnbtn {
+	color: #D8DBDF;
+}
+
+@media only screen and (min-width: 600px) {
+		.lessonbox {
+			width: 500px;
+		}
+		.lessontext {
+			width: 450px;
+			font-size: 20px;
+		}
+
+		 .lessonkana {
+  	font-size: 32px;
+  }
+  }
+
+  @media only screen and (min-width: 1200px) {
+		.lessonbox {
+			width: 700px;
+		}
+		.lessontext {
+			width: 450px;
+			font-size: 24px;
+		}
+		.lessonbtn {
+			padding: 8px 20px 8px 20px;
+		}
+
+		.lessonkana {
+  	font-size: 42px;
+  }
+  }
+
+  .lessonkana {
+  	font-size: 24px;
+  	font-weight: bold;
+  	text-align: center;
+  }

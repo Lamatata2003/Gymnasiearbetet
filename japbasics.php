@@ -29,20 +29,9 @@
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
 
-								<button type="button" class="border rounded buttons" onclick="hiragana()">
-									Hiragana
+								<button type="button" class="border rounded buttons" onclick="introduction()">
+									Introduction
 								</button>
-
-							<form action="" method="post">
-								<button type="submit" class="border rounded buttons">
-									Katakana
-								</button>
-							</form>
-							<form action="" method="post">
-								<button type="submit" class="border rounded buttons">
-									Kanji
-								</button>
-							</form>
 						</div>
 					</div>
 					<div class="flexbox-item"></div>
@@ -156,7 +145,7 @@
 
 	.desctext {
 		font-weight: 450;
-		width: 300px;
+		width: 280px;
 	}
 	.fontsize {
 		font-size: 28px;
