@@ -27,8 +27,6 @@
 			    	<h2>Introduction</h2>
 			    	<p>This is the core basics of the language and we recommend you go through this short introduction before starting anything else</p>
 				    <form action="" method="post" class="d-flex align-items-end">
-						<input type="hidden" name="question"value="">
-						<input type="hidden" name="answers" value="">
 						<button type="submit" class="border rounded buttons">
 							Introduction
 						</button>
@@ -36,23 +34,28 @@
 				</div>
 				<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
 			    	<h2>Learn</h2>
-			    	<p>Start learning!</p>
-				    <form action="" method="post">
-						<input type="hidden" name="question"value="">
-						<input type="hidden" name="answers" value="">
+			    	<p>Start learning the different parts of the language now with our lessons!</p>
+				    <form action="japbasics.php" method="post">
 						<button type="submit" class="border rounded buttons">
-							go to learn
+							Start taking lessons
+						</button>
+					</form>
+				</div>
+				<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
+			    	<h2>Kanachart</h2>
+			    	<p>Start practicing the meaning of every symbol in both Katakana and Hiragana</p>
+				    <form action="kanachart.php" method="post">
+						<button type="submit" class="border rounded buttons">
+							Start memorizing the charts
 						</button>
 					</form>
 				</div>
 				<div class="border border-2 rounded box textpadding flex-column greycolor lightergrey">
 			    	<h2>Test</h2>
 			    	<p>Already think that you have what it got? try by testing your knowledge now!</p>
-				    <form action="" method="post">
-						<input type="hidden" name="question"value="">
-						<input type="hidden" name="answers" value="">
+				    <form action="quiz-index.php" method="post">
 						<button type="submit" class="border rounded buttons">
-							go to test
+							Start testing your skills!
 						</button>
 					</form>
 				</div>
@@ -84,8 +87,17 @@
 		height: 32px;
 		width: 100%;
 		display: flex;
-
+		justify-content: center;
 
 	}
+
+	@media only screen and (max-width: 600px) {
+		.box {
+		width: 320px;
+		height: 200px;
+		margin-bottom: 45px;
+
+	}
+}
 
 </style>
