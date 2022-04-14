@@ -11,7 +11,7 @@
 <?php include("header.php")?>
 
 <body class="bg-color">
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center marginbottom margintop">
 	<h1 class="greycolor margintop">Lessons</h1>
 </div>
 	<div class="d-flex flex-row justify-content-center margintop">
@@ -92,7 +92,7 @@
 						</div>
 				</div>
 				<div class="flexbox-item"></div>
-				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom">
+				<div class="border border-2 rounded box textpadding lightergrey flex-row justify-content-between marginbottom footermargin">
 						<div class="flex-column">
 							<div class="greycolor fontsize">
 								Adjectives
@@ -160,6 +160,10 @@
 		height: 32px;
 		width: 100%;
 	}
+	.marginbottom {
+  	margin-bottom: 30px;
+  }
+  
 
 	@media only screen and (min-width: 600px) {
 		.box {
@@ -173,12 +177,15 @@
 		.desctext {
 		width: 500px;
 	}
+	.marginbottom {
+  	margin-bottom: 40px;
   }
 
   @media only screen and (min-width: 1650px) {
 		.box {
 			width: 800px;
 			display: flex;
+			height: 200px;
 		}
 		.buttons {
 			width: 230px;
@@ -199,11 +206,13 @@
 		.flexrow {
 		flex-direction: row !important;
 	}
+	.marginbottom {
+  	margin-bottom: 77px;
   }
-
-  .marginbottom {
-  	margin-bottom: 32px;
+	.footermargin{
+  	margin-bottom: 159px;
   }
+}
 </style>
 </body>
 </html>
