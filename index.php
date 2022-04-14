@@ -27,7 +27,7 @@
 			    	<h2>Introduction</h2>
 			    	<p>This is the core basics of the language and we recommend you go through this short introduction before starting anything else</p>
 				    <form action="" method="post" class="d-flex align-items-end">
-						<button type="submit" class="border rounded buttons">
+						<button type="submit" class="border rounded buttons introductionmargin">
 							Introduction
 						</button>
 					</form>
@@ -36,7 +36,7 @@
 			    	<h2>Learn</h2>
 			    	<p>Start learning the different parts of the language now with our lessons!</p>
 				    <form action="japbasics.php" method="post">
-						<button type="submit" class="border rounded buttons">
+						<button type="submit" class="border rounded buttons learnmargin">
 							Start taking lessons
 						</button>
 					</form>
@@ -45,7 +45,7 @@
 			    	<h2>Kanachart</h2>
 			    	<p>Start practicing the meaning of every symbol in both Katakana and Hiragana</p>
 				    <form action="kanachart.php" method="post">
-						<button type="submit" class="border rounded buttons">
+						<button type="submit" class="border rounded buttons kanachartmargin">
 							Start memorizing the charts
 						</button>
 					</form>
@@ -54,7 +54,7 @@
 			    	<h2>Test</h2>
 			    	<p>Already think that you have what it got? try by testing your knowledge now!</p>
 				    <form action="quiz-index.php" method="post">
-						<button type="submit" class="border rounded buttons">
+						<button type="submit" class="border rounded buttons testmargin">
 							Start testing your skills!
 						</button>
 					</form>
@@ -88,7 +88,18 @@
 		width: 100%;
 		display: flex;
 		justify-content: center;
-
+	}
+	.introductionmargin {
+		margin-top: 21px;
+	}
+	.learnmargin {
+		margin-top: 60px;
+	}
+	.kanachartmargin {
+		margin-top: 61px;
+	}
+	.testmargin {
+		margin-top: 61px;
 	}
 
 	@media only screen and (max-width: 600px) {
@@ -98,6 +109,10 @@
 		margin-bottom: 45px;
 
 	}
+		.introductionmargin {
+			margin-top: -3px;
+
+		}
 }
 
 </style>
