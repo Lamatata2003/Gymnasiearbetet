@@ -45,19 +45,17 @@
 							</div>
 						</div>
 						<div class="d-flex justify-content-center flex-column ">
+								<button type="submit" class="border rounded buttons" onclick="desu()">
+									AはBです
+								</button>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									How to use です
+									Making questions
 								</button>
 							</form>
 							<form action="" method="post">
 								<button type="submit" class="border rounded buttons">
-									The は particle
-								</button>
-							</form>
-							<form action="" method="post">
-								<button type="submit" class="border rounded buttons">
-									How to make questions
+									
 								</button>
 							</form>
 						</div>

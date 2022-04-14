@@ -25,8 +25,6 @@ $_SESSION["data"]=serialize($qs);
 
 
 ?>
-
-
 		<div class="d-flex justify-content-center align-items-center">
 		<form action="" method="post">
  <input type="hidden" name="question" value="0">
