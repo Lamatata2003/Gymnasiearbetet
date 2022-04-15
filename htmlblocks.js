@@ -245,14 +245,50 @@ var desu1 = '<div class="d-flex justify-content-center flex-column">' +
 		'<div class="d-flex flex-row justify-content-center">' +
 			'<div class="border border-2 lessonbox d-flex flex-column justify-content-center lightergrey p-4">' +
 				'<div class="d-flex justify-content-center">' +
-					'<div class="greycolor lessontext lessonText">' +
-						'Now you know the basics of the Japanese alphabets!' +
+					'<div class="greycolor lessontext">' +
+						'AはBです is the most bsaic sentence structure in Japanese.' +
 					'</div>' +
 				'</div>' +
 				'<div class="d-flex justify-content-center margintop">' +
-				'<form action="japbasics.php" class="d-flex justify-content-center">' +
-					'<button class="border rounded lessonbtn">Return to menu</button>' +
-					'</form>' +
+					'<button class="border rounded lessonbtn" onclick="desu()">Next</button>' +
+				'</div>' +
+			'</div>' +
+		'</div>' +
+		'<form action="japbasics.php" class="d-flex justify-content-center">' +
+			'<button class="btn margintop returnbtn">Return to menu</button>' +
+		'</form>' +
+	'</div>'
+
+var desu2 = '<div class="d-flex justify-content-center flex-column">' +
+		'<div class="topbox"></div>' +
+		'<div class="d-flex flex-row justify-content-center">' +
+			'<div class="border border-2 lessonbox d-flex flex-column justify-content-center lightergrey p-4">' +
+				'<div class="d-flex justify-content-center">' +
+					'<div class="greycolor lessontext">' +
+						'A direct translation would be something like: "As for A, it is B."' +
+					'</div>' +
+				'</div>' +
+				'<div class="d-flex justify-content-center margintop">' +
+					'<button class="border rounded lessonbtn" onclick="desu3()">Next</button>' +
+				'</div>' +
+			'</div>' +
+		'</div>' +
+		'<form action="japbasics.php" class="d-flex justify-content-center">' +
+			'<button class="btn margintop returnbtn">Return to menu</button>' +
+		'</form>' +
+	'</div>'
+
+var desu3 = '<div class="d-flex justify-content-center flex-column">' +
+		'<div class="topbox"></div>' +
+		'<div class="d-flex flex-row justify-content-center">' +
+			'<div class="border border-2 lessonbox d-flex flex-column justify-content-center lightergrey p-4">' +
+				'<div class="d-flex justify-content-center">' +
+					'<div class="greycolor lessontext">' +
+						'A direct translation would be something like: "As for A, it is B."' +
+					'</div>' +
+				'</div>' +
+				'<div class="d-flex justify-content-center margintop">' +
+					'<button class="border rounded lessonbtn" onclick="desu4()">Next</button>' +
 				'</div>' +
 			'</div>' +
 		'</div>' +
@@ -265,3 +301,11 @@ var desu1 = '<div class="d-flex justify-content-center flex-column">' +
 		const element = document.getElementById("demo");
 		element.innerHTML = desu1;
 	}
+
+	function desu2() {
+		const element = document.getElementById("demo");
+		element.innerHTML = desu2;
+	}
+	function desu3() {
+		const element = document.getElementById("demo");
+		element.innerHTML = desu3;

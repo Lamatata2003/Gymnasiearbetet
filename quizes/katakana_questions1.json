@@ -1,56 +1,56 @@
 [
   [
-    "kataSelect the correct character for “yo”",
+    "Select the correct character for “na”",
     [
-      "よ",
-      "か",
-      "ゆ",
-      "は"
+      "ナ",
+      "ヨ",
+      "コ",
+      "ロ"
     ]
   ],
   [
-    "katanaelect the correct character for “ka”",
+    "Select the correct character for “re”",
     [
-      "か",
-      "は",
-      "の",
-      "や"
+      "レ",
+      "ル",
+      "カ",
+      "イ"
     ]
   ],
   [
-    "katknaaSelect the correct character for “ha”",
+    "Select the correct character for “te”",
     [
-      "は",
-      "ま",
-      "く",
-      "よ"
+      "テ",
+      "ト",
+      "フ",
+      "オ"
     ]
   ],
   [
-    "Skanmtaelect the correct character for “ku”",
+    "Select the correct pronunciation for “シ”",
     [
-      "く",
-      "か",
-      "へ",
-      "の"
+      "shi",
+      "no",
+      "tsu",
+      "n"
     ]
   ],
   [
-    "kantatSelect the correct character for “yu”",
+    "Select the correct pronunciation for “ツ”",
     [
-      "ゆ",
-      "て",
-      "よ",
-      "こ"
+      "tsu",
+      "shi",
+      "te",
+      "ha"
     ]
   ],
   [
-    "kantatSelect the correct character for “ho”",
+    "Select the correct pronunciation for “ク”",
     [
-      "ほ",
-      "は",
-      "ま",
-      "と"
+      "ku",
+      "ke",
+      "e",
+      "sa"
     ]
   ]
 ]

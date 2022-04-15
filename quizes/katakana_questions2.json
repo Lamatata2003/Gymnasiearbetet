@@ -1,10 +1,56 @@
 [
   [
-    "Select the correct character for “a”",
+    "Select the correct character for “he”",
     [
-      "ア",
-      "オ",
-      "ネ",
-      "ク"
+      "ヘ",
+      "ク",
+      "ロ",
+      "ホ"
+    ]
+  ],
+  [
+    "Select the correct character for “ma”",
+    [
+      "マ",
+      "ル",
+      "ヒ",
+      "ウ"
+    ]
+  ],
+  [
+    "Select the correct character for “ri”",
+    [
+      "リ",
+      "ル",
+      "メ",
+      "ア"
+    ]
+  ],
+  [
+    "Select the correct pronunciation for “ラ”",
+    [
+      "ra",
+      "ta",
+      "ri",
+      "n"
+    ]
+  ],
+  [
+    "Select the correct pronunciation for “メ”",
+    [
+      "me",
+      "so",
+      "ru",
+      "mo"
+    ]
+  ],
+  [
+    "Select the correct pronunciation for “ン”",
+    [
+      "n",
+      "ne",
+      "o",
+      "ki"
     ]
   ]
+]

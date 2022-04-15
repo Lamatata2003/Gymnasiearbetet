@@ -1,56 +1,56 @@
 [
   [
-    "Select the correct character for “yo”",
+    "Select the correct pronunciation for “の”",
     [
-      "よ",
-      "か",
-      "ゆ",
-      "は"
+      "no",
+      "ma",
+      "ni",
+      "ka"
     ]
   ],
   [
-    "Select the correct character for “ka”",
+    "Select the correct character for “sa”",
     [
-      "か",
-      "は",
-      "の",
-      "や"
-    ]
-  ],
-  [
-    "Select the correct character for “ha”",
-    [
-      "は",
-      "ま",
-      "く",
-      "よ"
-    ]
-  ],
-  [
-    "Select the correct character for “ku”",
-    [
-      "く",
-      "か",
-      "へ",
-      "の"
-    ]
-  ],
-  [
-    "Select the correct character for “yu”",
-    [
-      "ゆ",
+      "さ",
+      "こ",
       "て",
-      "よ",
-      "こ"
+      "す"
     ]
   ],
   [
-    "Select the correct character for “ho”",
+    "Select the correct character for “ko”",
     [
-      "ほ",
-      "は",
-      "ま",
+      "こ",
+      "ぬ",
+      "れ",
+      "に"
+    ]
+  ],
+  [
+    "Select the correct pronunciation for “つ”",
+    [
+      "tsu",
+      "su",
+      "shi",
+      "u"
+    ]
+  ],
+  [
+    "Select the correct character for “a”",
+    [
+      "あ",
+      "お",
+      "む",
       "と"
+    ]
+  ],
+  [
+    "Select the correct character for “u”",
+    [
+      "う",
+      "え",
+      "や",
+      "ら"
     ]
   ]
 ]

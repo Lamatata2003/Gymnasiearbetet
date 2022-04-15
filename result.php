@@ -23,7 +23,7 @@ for ($i=0; $i <= 4; $i++) {
 		
 	}
 }
-echo "<h1 class=\"text-center text-white\">You scored: $correctAnswers / 6</h1>";
+echo "<h1 class=\"text-center text-white\">You scored: $correctAnswers / 5</h1>";
 
 ?>
 <form action="" method="post">
