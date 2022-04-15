@@ -84,18 +84,8 @@
                         </div>
                         <div class="d-flex justify-content-center flex-column ">
                             <form action="quiz.php" method="post">
-                            <button type="submit" class="border rounded buttons" value="katakana_questions1" name="selectQuiz">
-                                Hiragana 2
-                            </button>
-                        </form>
-                            <form action="quiz.php" method="post">
-                            <button type="submit" class="border rounded buttons" value="katakana_questions1" name="selectQuiz">
-                                Hiragana 2
-                            </button>
-                        </form>
-                            <form action="quiz.php" method="post">
-                            <button type="submit" class="border rounded buttons" value="katakana_questions1" name="selectQuiz">
-                                Hiragana 2
+                            <button type="submit" class="border rounded buttons" value="grammar_questions1" name="selectQuiz">
+                                Grammar
                             </button>
                         </form>
                         </div>

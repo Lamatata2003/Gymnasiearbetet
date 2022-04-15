@@ -145,30 +145,37 @@
 			font-size: 20px;
 		}
 
-		 .lessonkana {
-  	font-size: 32px;
-  }
   }
 
   @media only screen and (min-width: 1200px) {
 		.lessonbox {
-			width: 700px;
+			width: 750px;
 		}
 		.lessontext {
-			width: 450px;
+			width: 500px;
 			font-size: 24px;
 		}
 		.lessonbtn {
 			padding: 8px 20px 8px 20px;
 		}
 
-		.lessonkana {
-  	font-size: 42px;
-  }
   }
 
   .lessonkana {
-  	font-size: 24px;
+  	font-size: 36px;
   	font-weight: bold;
   	text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+		 .lessonkana {
+  	font-size: 34px;
+  	}
+  }
+
+    @media only screen and (max-width: 1200px) {
+		.lessonkana {
+  	font-size: 24px;
+  	}
   }
